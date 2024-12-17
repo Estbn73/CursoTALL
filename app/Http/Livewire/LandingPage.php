@@ -23,7 +23,7 @@ class LandingPage extends Component
         Subscriber::create([
             'email' => $this->email,
         ]);
-
+        
         $this->reset('email');
 
     }
